@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family:RobotoMono ;
+    src: url(RobotoMono-Italic-VariableFont_wght.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: RobotoMono;
+    background-color: azure;
+}
+header {
+    background-color: rgb(0, 0, 0, 0.95);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 15px;
+    font-size: 13px;
+}
+header .right {
+    display: flex;
+}
+header .right i {
+    margin: 15px;
+}
+header .right h5 {
+    margin: 10px;
+}
+header .left {
+    display: flex;
+    padding: 10px;
+    
+    list-style: none;
+}
+header .left li {
+    margin: 12px;
+    color: whitesmoke;
+}
+header .left li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+header .left i {
+    margin: 12px;
+    color: whitesmoke;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   height: 75px;
+    background-color: white;
+}
+nav .right {
+    margin-left: 30px;
+
+}
+nav .left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav .left .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav .left .links li a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+}
+nav .left .links li a:hover {
+    color: rgb(245, 167, 180);
+}
+nav .left .icon {
+    margin-right: 35px;
+}
+.home {
+    background-image: url('images/1.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 84vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home h5 {
+    color: white;
+    font-size: 25px;
+}
