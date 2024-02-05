@@ -90,7 +90,7 @@ nav .left .icon {
     background-image: url('images/1.jpg'); 
     background-size: cover;
     background-position: center; 
-    height: 84vh; 
+    height: 82vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,4 +99,181 @@ nav .left .icon {
 .home h5 {
     color: white;
     font-size: 25px;
+    position: absolute;
+    top:250px;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
+.home h1 {
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+.home p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+}
+.home button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top:  80vh;
+    letter-spacing: 4px;
+}
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    gap: 20px;
+    background-color: azure;
+}
+#about i {
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#about h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+#about p {
+    line-break: normal;
+    width: 90%;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+#about .card {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 3.4px 3.4px 4.4px rgb(0, 0, 0, 0.45),
+                2.4px 2.4px 4.4px rgb(0, 0, 0, 0.35),
+                1.4px 1.4px 4.4px rgb(0, 0, 0, 0.25);
+    padding: 10px;
+    display: block;
+    align-items: center;
+    
+}
+.know {
+    background-color: rgb(206, 206, 206, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.know .left {
+    margin-left: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.know .left h5 {
+    font-family: cursive;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.know .left h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.know .left p {
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.know .left button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.know .right {
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.right .imleft img {
+    width: 400px;
+    position: absolute;
+    right: 3px;
+    object-fit: cover;
+}
+.right .imright img {
+    width: 500px;
+    position: relative;
+    object-fit: cover;
+}
+.images{
+    display: flex;
+    
+}
+.images .images1 {
+    position: relative;
+    width: 100%;
+  }
+.images .images1 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+}
+
+.images .images1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust the alpha (last value) to control darkness */
+    z-index: 1;
+  }
+  .images .images1 .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+  #okl {
+    background-color:white;
+    /* padding: 30px; */
+  }
+  .jkl {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 30px;
+    gap: 30px;
+    
+  }
+  .jkl .knw2 {
+    background-color: rgb(237, 237, 237, 0.5);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3.4px 3.4px 4.4px rgb(0, 0, 0, 0.45),
+                2.4px 2.4px 4.4px rgb(0, 0, 0, 0.35),
+                1.4px 1.4px 4.4px rgb(0, 0, 0, 0.25);
+
+  }
+  .jkl .knw2 h5 {
+    margin-top: 10px;
+  }
+  .jkl .knw2 h2 {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+ }
